@@ -129,6 +129,7 @@ header, section {
 
 .products {
   display: flex;
+  background-color: #e0f7fa !important;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
@@ -155,7 +156,7 @@ header, section {
 }
 
 .about {
-  background-color: #e0f7fa !important;;
+  background-color: #e0f7fa !important;
   padding: 60px 20px;
 }
 
