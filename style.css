@@ -339,15 +339,5 @@ footer {
   header, section {
     padding: 50px 20px;
   }
-  @media (max-width: 768px) {
-  .contact-columns {
-    flex-direction: column;
-  }
-
-  .contact-left,
-  .contact-right {
-    width: 100%;
-  }
-}
 
 }
