@@ -111,8 +111,8 @@ header, section {
 }
 
 .hero-images-grid img {
-  width: 100px;
-  height: 70px;
+  width: 120px;
+  height: 80px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -129,7 +129,6 @@ header, section {
 
 .products {
   display: flex;
-  background-color: #e0f7fa !important;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
