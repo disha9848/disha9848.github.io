@@ -234,29 +234,6 @@ header, section {
   margin-right: 8px;
   color: #005f73;
 }
-.contact-columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-bottom: 30px;
-}
-
-.contact-left,
-.contact-right {
-  flex: 1;
-  min-width: 250px;
-}
-
-.contact-bottom {
-  border-top: 1px solid #ccc;
-  padding-top: 20px;
-  margin-top: 10px;
-}
-
-.contact-bottom p {
-  margin: 10px 0;
-}
-
 
 
 footer {
