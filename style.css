@@ -153,6 +153,33 @@ t-align: center;
   text-align: center;  
 }
 
+.about {
+  background: #e0fbfc;
+  padding: 60px 20px;
+}
+
+.about-details {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.about-info {
+  font-size: 1.1rem;
+  color: #333;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-info h3 {
+  margin-bottom: 20px;
+  color: #005f73;
+  font-size: 1.5rem;
+}
+
+
 .partner-title {
   text-align: center;
   color: #005f73;
