@@ -68,42 +68,41 @@ header, section {
 }
 
 /* HERO SECTION */
+
 .hero {
   background-color: #e0f7fa;
-  min-height: 100vh;
+  min-height: 60vh;          /* reduced from 100vh to 60vh */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 20px 20px;        /* reduced padding for less vertical space */
 }
 
 .hero-content {
   display: flex;
   align-items: center;
-  gap: 40px;
-  max-width: 1200px;
+  gap: 30px;                 /* slightly smaller gap */
+  max-width: 1000px;         /* smaller max width */
   width: 100%;
   justify-content: center;
   flex-wrap: nowrap;
 }
 
 .hero-image img {
-  width: 600px;
-  height: 400px;
+  width: 400px;              /* reduced width */
+  height: 270px;             /* maintain aspect ratio (approx 3:2) */
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hero-text {
-  font-size: 2rem;
+  font-size: 1.5rem;         /* smaller font */
   font-weight: bold;
   color: #005f73;
-  max-width: 400px;
+  max-width: 350px;
   text-align: left;
 }
-
-
 
 
 .section-title {
