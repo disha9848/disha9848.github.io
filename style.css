@@ -142,7 +142,7 @@ header, section {
 }
 
 .about {
-  background-color: #e0f7fa;
+  background-color: #e0f7fa !important;;
   padding: 60px 20px;
 }
 
