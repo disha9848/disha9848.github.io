@@ -107,22 +107,12 @@ header, section {
 
 
 .section-title {
-   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    font-size: 2rem;
+  margin-bottom: 20px;
+  color: #005f73;
+  text-align: center; 
+}
 
-  min-height: 100vh;
-  padding: 40px 60px; /* creates space on the sides */
-  box-sizing: border-box;
-  text-align: center;
-}
-.section-title ul {
-  list-style: disc inside;
-  text-align: left;
-  margin: 1em auto;
-  max-width: 600px;
-}
 
 .products {
   display: flex;
@@ -154,12 +144,21 @@ t-align: center;
 }
 
 .about-content {
-  max-width: 800px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 40px 60px; /* creates space on the sides */
+  box-sizing: border-box;
   text-align: center;
-  margin-bottom: 40px;
-  color: #333;
-  font-size: 1.1rem;
+}
+.about-content ul {
+  list-style: disc inside;
+  text-align: left;
+  margin: 1em auto;
+  max-width: 600px;
 }
 
 .partner-title {
