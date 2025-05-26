@@ -211,9 +211,9 @@ header, section {
 }
 
 .contact-details {
-  width: 90%;      /* or 95% */
-  max-width: 1400px; /* optional max-width */
-  margin: auto;
+  width: 90% !important;      /* or 95% */
+  max-width: 1400px !important; /* optional max-width */
+  margin: auto !important;
   padding-top: 20px;
 }
 
