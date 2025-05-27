@@ -154,6 +154,7 @@ header, section {
   color: #005f73;
 }
 
+
 .about {
   background-color: #e0f7fa !important;
   padding: 60px 20px;
@@ -218,6 +219,48 @@ header, section {
   font-weight: 600;
   color: #005f73;
 }
+.customers {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.customers .partner-title {
+  text-align: center;
+  color: #005f73;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.customers .partner-table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.customers .partner-cell {
+  text-align: center;
+  width: 150px;
+}
+
+.customers .partner-cell img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.customers .partner-cell img:hover {
+  transform: scale(1.1);
+}
+
+.customers .partner-cell p {
+  font-weight: 600;
+  color: #005f73;
+}
+
 
 .contact {
   background: #e0fbfc;
