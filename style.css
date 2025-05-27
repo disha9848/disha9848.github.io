@@ -127,8 +127,7 @@ header, section {
 }
 
 
-.products {
-  background-color: #e0f7fa !important;
+.products {;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -137,7 +136,6 @@ header, section {
 }
 
 .product-item {
-  background-color: #e0f7fa;
   text-align: center;
 }
 
