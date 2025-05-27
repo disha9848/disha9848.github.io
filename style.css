@@ -182,43 +182,6 @@ header, section {
   font-size: 1.5rem;
 }
 
-
-.partner-title {
-  text-align: center;
-  color: #005f73;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-.partner-table {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  padding: 20px;
-}
-
-.partner-cell {
-  text-align: center;
-  width: 150px;
-}
-
-.partner-cell img {
-  width: 100px;
-  height: auto;
-  object-fit: contain;
-  margin-bottom: 10px;
-  transition: transform 0.3s ease;
-}
-
-.partner-cell img:hover {
-  transform: scale(1.1);
-}
-
-.partner-cell p {
-  font-weight: 600;
-  color: #005f73;
-}
 .customers {
   background-color: #ffffff;
   padding: 60px 20px;
